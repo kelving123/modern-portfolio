@@ -1,0 +1,93 @@
+body {
+  background-color: navy;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin: 0;
+}
+/* header styling copied and pasted directly from index.html*/
+header {
+  background-color: white;
+  width: 100%;
+  position: relative;
+  height: 4em;
+  text-align: center;
+  letter-spacing: 0.5em;
+  word-spacing: 30px;
+  text-shadow: 1px 1px grey;
+}
+
+header p {
+  word-spacing: 30px;
+}
+
+.top {
+  color: black;
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* main photo of me*/
+
+.me {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align: center;
+  word-spacing: 8px;
+}
+
+.maincontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top a {
+  word-spacing: 4em;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.tech {
+  position: relative;
+  top: 4em;
+  text-align: center;
+}
+
+.insta {
+  height: 5%;
+  width: 5%;
+  position: relative;
+  top: 8em;
+}
+
+.linkedin {
+  height: 55%;
+  width: 40%;
+  position: relative;
+  top: 8em;
+}
+
+.github {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  top: 8em;
+  right: 26em;
+}
+
+.icons {
+  display: flex;
+  padding-left: 18em;
+  padding-right: 18em;
+  align-items: center;
+  justify-content: space-around;
+}

@@ -1,0 +1,99 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: white;
+  width: 100%;
+  position: relative;
+  height: 4em;
+  text-align: center;
+  letter-spacing: 0.5em;
+  word-spacing: 30px;
+  text-shadow: 1px 1px grey;
+}
+
+.top {
+  color: black;
+  text-align: center;
+  padding-top: 1.5em;
+}
+body {
+  /*background-color: #0467b9;*/
+  background-color: navy;
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Circle {
+  position: absolute;
+  top: 8em;
+  right: 8em;
+}
+
+.Triangles {
+  height: 30em;
+  width: 30em;
+  top: 16em;
+  right: 1em;
+  position: relative;
+}
+
+.line {
+  height: 1px;
+  top: 15em;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.5em;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.5em;
+}
+
+.text {
+  position: relative;
+  left: 2em;
+  bottom: 14em;
+  text-align: center;
+  width: 800px;
+  text-shadow: 2px 2px darkblue;
+  margin: auto;
+}
+
+p {
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.mini {
+  height: 10em;
+  margin: auto;
+  display: block;
+  align-items: center;
+  word-spacing: 4em;
+  padding-left: 8em;
+  padding-top: 20em;
+}
+
+.inspired {
+  color: white;
+  text-align: center;
+  letter-spacing: 4px;
+  position: relative;
+  left: 2.4em;
+}
