@@ -14,12 +14,13 @@ header {
   letter-spacing: 0.5em;
   word-spacing: 30px;
   text-shadow: 1px 1px grey;
-  position: fixed;
+  position: relative;
 }
 
 .top {
   color: black;
   text-align: center;
+  padding-top: 1.5em;
   position: relative;
 }
 
