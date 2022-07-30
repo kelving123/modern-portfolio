@@ -40,6 +40,7 @@ h2 {
   text-align: center;
 }
 
-form {
-  text-align: center;
+.message {
+  width: 20em;
+  height: 20em;
 }
